@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/ntp/sb7code-master/sb7code-master/extern/glfw-3.0.4/examples/CMakeLists.txt
+  CMake does not need to re-run because C:/ntp/sb7code-master/sb7code-master/extern/glfw-3.0.4/vs_project/examples/CMakeFiles/generate.stamp is up-to-date.
+  splitview.c
+  splitview.vcxproj -> C:\ntp\sb7code-master\sb7code-master\extern\glfw-3.0.4\vs_project\examples\Debug\splitview.exe

@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/ntp/sb7code-master/sb7code-master/extern/glfw-3.0.4/tests/CMakeLists.txt
+  CMake does not need to re-run because C:/ntp/sb7code-master/sb7code-master/extern/glfw-3.0.4/vs_project/tests/CMakeFiles/generate.stamp is up-to-date.
+  glfwinfo.c
+  getopt.c
+  Generating Code...
+  glfwinfo.vcxproj -> C:\ntp\sb7code-master\sb7code-master\extern\glfw-3.0.4\vs_project\tests\Debug\glfwinfo.exe

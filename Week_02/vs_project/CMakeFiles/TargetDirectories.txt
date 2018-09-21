@@ -1,0 +1,3 @@
+C:/ntp/Week_02/vs_project/CMakeFiles/media_fundamentals.dir
+C:/ntp/Week_02/vs_project/CMakeFiles/ALL_BUILD.dir
+C:/ntp/Week_02/vs_project/CMakeFiles/ZERO_CHECK.dir

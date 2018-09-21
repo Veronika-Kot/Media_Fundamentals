@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\ntp\sb7code-master\sb7code-master\extern\glfw-3.0.4\tests\accuracy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\ntp\sb7code-master\sb7code-master\extern\glfw-3.0.4\tests\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7F32C597-EE35-3CB5-B522-73656701F608}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

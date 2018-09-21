@@ -1,0 +1,503 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3408D746-ED5C-3397-ABCA-D3D28668E088}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\ntp\sb7code-master\sb7code-master\include;C:\ntp\sb7code-master\sb7code-master\extern\glfw-3.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\ntp\sb7code-master\sb7code-master\include;C:\ntp\sb7code-master\sb7code-master\extern\glfw-3.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\ntp\sb7code-master\sb7code-master\include;C:\ntp\sb7code-master\sb7code-master\extern\glfw-3.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\ntp\sb7code-master\sb7code-master\include;C:\ntp\sb7code-master\sb7code-master\extern\glfw-3.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\ntp\sb7code-master\sb7code-master\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/ntp/sb7code-master/sb7code-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/ntp/sb7code-master/sb7code-master -BC:/ntp/sb7code-master/sb7code-master/build --check-stamp-file C:/ntp/sb7code-master/sb7code-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/ntp/sb7code-master/sb7code-master/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.12\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;C:\ntp\sb7code-master\sb7code-master\CMakeLists.txt;C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\3.12.2\CMakeCCompiler.cmake;C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\3.12.2\CMakeCXXCompiler.cmake;C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\3.12.2\CMakeRCCompiler.cmake;C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\3.12.2\CMakeSystem.cmake;C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\FindOpenMP\OpenMPCheckVersion.c;C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\FindOpenMP\OpenMPCheckVersion.cpp;C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\FindOpenMP\OpenMPTryFlag.c;C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\FindOpenMP\OpenMPTryFlag.cpp;C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\feature_tests.c;C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\feature_tests.cxx;C:\ntp\sb7code-master\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\ntp\sb7code-master\sb7code-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/ntp/sb7code-master/sb7code-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/ntp/sb7code-master/sb7code-master -BC:/ntp/sb7code-master/sb7code-master/build --check-stamp-file C:/ntp/sb7code-master/sb7code-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/ntp/sb7code-master/sb7code-master/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.12\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;C:\ntp\sb7code-master\sb7code-master\CMakeLists.txt;C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\3.12.2\CMakeCCompiler.cmake;C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\3.12.2\CMakeCXXCompiler.cmake;C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\3.12.2\CMakeRCCompiler.cmake;C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\3.12.2\CMakeSystem.cmake;C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\FindOpenMP\OpenMPCheckVersion.c;C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\FindOpenMP\OpenMPCheckVersion.cpp;C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\FindOpenMP\OpenMPTryFlag.c;C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\FindOpenMP\OpenMPTryFlag.cpp;C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\feature_tests.c;C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\feature_tests.cxx;C:\ntp\sb7code-master\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\ntp\sb7code-master\sb7code-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/ntp/sb7code-master/sb7code-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/ntp/sb7code-master/sb7code-master -BC:/ntp/sb7code-master/sb7code-master/build --check-stamp-file C:/ntp/sb7code-master/sb7code-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/ntp/sb7code-master/sb7code-master/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.12\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;C:\ntp\sb7code-master\sb7code-master\CMakeLists.txt;C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\3.12.2\CMakeCCompiler.cmake;C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\3.12.2\CMakeCXXCompiler.cmake;C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\3.12.2\CMakeRCCompiler.cmake;C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\3.12.2\CMakeSystem.cmake;C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\FindOpenMP\OpenMPCheckVersion.c;C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\FindOpenMP\OpenMPCheckVersion.cpp;C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\FindOpenMP\OpenMPTryFlag.c;C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\FindOpenMP\OpenMPTryFlag.cpp;C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\feature_tests.c;C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\feature_tests.cxx;C:\ntp\sb7code-master\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\ntp\sb7code-master\sb7code-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/ntp/sb7code-master/sb7code-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/ntp/sb7code-master/sb7code-master -BC:/ntp/sb7code-master/sb7code-master/build --check-stamp-file C:/ntp/sb7code-master/sb7code-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/ntp/sb7code-master/sb7code-master/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.12\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;C:\ntp\sb7code-master\sb7code-master\CMakeLists.txt;C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\3.12.2\CMakeCCompiler.cmake;C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\3.12.2\CMakeCXXCompiler.cmake;C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\3.12.2\CMakeRCCompiler.cmake;C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\3.12.2\CMakeSystem.cmake;C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\FindOpenMP\OpenMPCheckVersion.c;C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\FindOpenMP\OpenMPCheckVersion.cpp;C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\FindOpenMP\OpenMPTryFlag.c;C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\FindOpenMP\OpenMPTryFlag.cpp;C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\feature_tests.c;C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\feature_tests.cxx;C:\ntp\sb7code-master\sb7code-master\build\templates\vs2013.vcxproj.user.in;C:\ntp\sb7code-master\sb7code-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\ntp\sb7code-master\sb7code-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\ZERO_CHECK.vcxproj">
+      <Project>{F515EB4F-F560-3CA7-9294-B63C1EE6E134}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\alienrain.vcxproj">
+      <Project>{7802E240-A12F-3845-AB42-04CE22F1661D}</Project>
+      <Name>alienrain</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\basicfbo.vcxproj">
+      <Project>{E19C5B84-6DCF-38B4-81A9-705A2E939DCA}</Project>
+      <Name>basicfbo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\bindlesstex.vcxproj">
+      <Project>{04B1A27D-6A22-3358-94AB-814165328DDD}</Project>
+      <Name>bindlesstex</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\blendmatrix.vcxproj">
+      <Project>{B18E846F-E379-3A0E-ADB6-628EA7398FCA}</Project>
+      <Name>blendmatrix</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\blinnphong.vcxproj">
+      <Project>{7823E2EB-68A8-32D0-B308-0CA3A3A4F5DC}</Project>
+      <Name>blinnphong</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\bumpmapping.vcxproj">
+      <Project>{04FF4CFC-B089-36DD-BA39-961821CFC1CD}</Project>
+      <Name>bumpmapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\clipdistance.vcxproj">
+      <Project>{65FC8316-20E9-37FC-9451-EEEC59815317}</Project>
+      <Name>clipdistance</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\compressrgtc.vcxproj">
+      <Project>{E21AA909-34BD-36F6-9EAA-E9B7F7975478}</Project>
+      <Name>compressrgtc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\csflocking.vcxproj">
+      <Project>{F85DF029-0282-3B31-AEAE-32F98568FB50}</Project>
+      <Name>csflocking</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\cubemapenv.vcxproj">
+      <Project>{CD07B207-68DA-337E-9C70-78238BDBF800}</Project>
+      <Name>cubemapenv</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\cubicbezier.vcxproj">
+      <Project>{C0FA0D0F-F0E4-36DF-9ED5-1E22E36BF555}</Project>
+      <Name>cubicbezier</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\cullindirect.vcxproj">
+      <Project>{2DD1C5AB-E011-39D1-8DF3-E2A203C33840}</Project>
+      <Name>cullindirect</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\deferredshading.vcxproj">
+      <Project>{0C3335BB-1719-3781-83AF-49AA728B8CD0}</Project>
+      <Name>deferredshading</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\depthclamp.vcxproj">
+      <Project>{4C931B41-FBF1-37C8-8814-435650FA09F2}</Project>
+      <Name>depthclamp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\dflandscape.vcxproj">
+      <Project>{26CF38FA-5C44-3E9E-AC0D-2ABB7A89205E}</Project>
+      <Name>dflandscape</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\dispmap.vcxproj">
+      <Project>{FE490867-7AFD-301D-96A8-9E331468114D}</Project>
+      <Name>dispmap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\dof.vcxproj">
+      <Project>{B6845CD1-2462-3061-A362-DB97952CA3C7}</Project>
+      <Name>dof</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\envmapsphere.vcxproj">
+      <Project>{C91CACC9-C3BB-3BBD-9B67-22730FFB7FAD}</Project>
+      <Name>envmapsphere</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\equirectangular.vcxproj">
+      <Project>{2D23B4CF-E0C9-3CEC-BE1F-56ECC99B04D2}</Project>
+      <Name>equirectangular</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\fontdemo.vcxproj">
+      <Project>{E62A6521-7160-3658-95EE-B3407EC5EB4B}</Project>
+      <Name>fontdemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\fragcolorfrompos.vcxproj">
+      <Project>{743744F0-5E78-3A40-910B-70430AEFA372}</Project>
+      <Name>fragcolorfrompos</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\fragmentlist.vcxproj">
+      <Project>{F2C44BE7-109A-3DA3-B3B0-2E9BA55D1734}</Project>
+      <Name>fragmentlist</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\grass.vcxproj">
+      <Project>{BDAE8D18-CBED-30C7-86A5-AB53FE9D4D6A}</Project>
+      <Name>grass</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\gsculling.vcxproj">
+      <Project>{86237E16-BC60-37FD-BA3E-F368ACA55A47}</Project>
+      <Name>gsculling</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\gslayered.vcxproj">
+      <Project>{0D88E6B9-8842-3C09-93FA-CABC5E63CDB9}</Project>
+      <Name>gslayered</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\gsquads.vcxproj">
+      <Project>{29A4AE5B-C4D3-39E4-84BD-FFA0CD4D044E}</Project>
+      <Name>gsquads</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\gstessellate.vcxproj">
+      <Project>{72E80295-83BA-3C12-8F88-2DE244D99293}</Project>
+      <Name>gstessellate</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\hdrbloom.vcxproj">
+      <Project>{A1F1E993-B01C-3A79-8AC9-8E93C5B613F3}</Project>
+      <Name>hdrbloom</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\hdrexposure.vcxproj">
+      <Project>{B1D377EC-A681-3C69-9DD1-39639332A8CF}</Project>
+      <Name>hdrexposure</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\hdrtonemap.vcxproj">
+      <Project>{89D308CC-1330-3FA1-9B7A-6BE507A61A34}</Project>
+      <Name>hdrtonemap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\hqfilter.vcxproj">
+      <Project>{91123BD4-EC3B-3B30-A35F-CC711D14ABA6}</Project>
+      <Name>hqfilter</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\indexedcube.vcxproj">
+      <Project>{F594AD91-AF9E-3FD5-A8E8-EE64FEC673FC}</Project>
+      <Name>indexedcube</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\indirectmaterial.vcxproj">
+      <Project>{9A1F2DE9-A811-3954-8459-AFA25DD9A567}</Project>
+      <Name>indirectmaterial</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\instancedattribs.vcxproj">
+      <Project>{AB47547D-1A50-3322-9F3D-E02B60F35E08}</Project>
+      <Name>instancedattribs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\julia.vcxproj">
+      <Project>{717BD6B5-BA27-3C93-AD8D-D2FF9938E78A}</Project>
+      <Name>julia</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\ktxview.vcxproj">
+      <Project>{D53D390F-A06C-31AA-8C78-4660AFBA2394}</Project>
+      <Name>ktxview</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\linesmooth.vcxproj">
+      <Project>{FDD7A1BC-DEDA-3B47-A727-FBB48C33652B}</Project>
+      <Name>linesmooth</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\mirrorclampedge.vcxproj">
+      <Project>{6C43AAFD-2F1C-3633-A5B8-89C30012FB6B}</Project>
+      <Name>mirrorclampedge</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\movingtri.vcxproj">
+      <Project>{87575666-4802-357A-B06A-41F3603E384C}</Project>
+      <Name>movingtri</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\msaanative.vcxproj">
+      <Project>{1563BCD6-3213-3C2F-939F-824424A9047B}</Project>
+      <Name>msaanative</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\multidrawindirect.vcxproj">
+      <Project>{45E20272-940B-3FA6-ABE6-1A9446ADA611}</Project>
+      <Name>multidrawindirect</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\multiscissor.vcxproj">
+      <Project>{1F6CFBFC-F6D4-31B5-9578-5AF48B559AEC}</Project>
+      <Name>multiscissor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\multiviewport.vcxproj">
+      <Project>{23DE0D80-BCDC-3B5F-B1EC-E8BDD4609359}</Project>
+      <Name>multiviewport</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\noperspective.vcxproj">
+      <Project>{0C6AC4C6-56FB-3AE0-AEE0-12F3208F53A7}</Project>
+      <Name>noperspective</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\normalviewer.vcxproj">
+      <Project>{23CEEB51-3064-3C7B-A3D2-48C366175F8D}</Project>
+      <Name>normalviewer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\objectexploder.vcxproj">
+      <Project>{EA4A7400-3F1C-3FB8-9373-89FD5D81547A}</Project>
+      <Name>objectexploder</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\ompparticles.vcxproj">
+      <Project>{B8F81BA8-455A-3DCF-A972-57354D53DC7C}</Project>
+      <Name>ompparticles</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\packetbuffer.vcxproj">
+      <Project>{61BDC779-6A67-3F42-A04A-EEFF7DD4D9CB}</Project>
+      <Name>packetbuffer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\perpixelgloss.vcxproj">
+      <Project>{CF7DF3BF-5AC4-3701-BAC3-E32EF7D49A6D}</Project>
+      <Name>perpixelgloss</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\phonglighting.vcxproj">
+      <Project>{DFF2C311-A7B2-3316-AC05-D1C9E2DC1B3C}</Project>
+      <Name>phonglighting</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\pmbfractal.vcxproj">
+      <Project>{03B76AFC-EF96-3ED9-A252-CE70F6FE86B7}</Project>
+      <Name>pmbfractal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\pmbstreaming.vcxproj">
+      <Project>{75811C0E-E42F-32FE-9B5D-008C491A8C0F}</Project>
+      <Name>pmbstreaming</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\polygonsmooth.vcxproj">
+      <Project>{BEA9CAC9-6665-3567-88EA-452C0004BF42}</Project>
+      <Name>polygonsmooth</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\prefixsum.vcxproj">
+      <Project>{8A3C1E5F-4325-3154-A4E7-E80D083C2BC4}</Project>
+      <Name>prefixsum</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\prefixsum2d.vcxproj">
+      <Project>{1B532247-10C4-3E66-B94D-781530EFC97E}</Project>
+      <Name>prefixsum2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\programinfo.vcxproj">
+      <Project>{4B47222A-6669-39E5-8F17-D62A719A4426}</Project>
+      <Name>programinfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\raytracer.vcxproj">
+      <Project>{575FE7DF-7BBD-32E7-A4C3-8CBA7D702070}</Project>
+      <Name>raytracer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\rimlight.vcxproj">
+      <Project>{DD5C001C-6262-30F6-A884-F5628C4B6851}</Project>
+      <Name>rimlight</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\sampleshading.vcxproj">
+      <Project>{A7BA55E6-7EA5-37F4-949D-31337A1CB8C1}</Project>
+      <Name>sampleshading</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\sb7.vcxproj">
+      <Project>{73A12EFC-BD73-3957-9665-5E3A8B06CC3B}</Project>
+      <Name>sb7</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\sdfdemo.vcxproj">
+      <Project>{617F2E68-6ABD-310B-A994-1FB494060967}</Project>
+      <Name>sdfdemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\shadowmapping.vcxproj">
+      <Project>{806D4EDB-412F-3E77-8DE3-F1F3CCECC85F}</Project>
+      <Name>shadowmapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\shapedpoints.vcxproj">
+      <Project>{4111F717-4CD4-3EB8-9438-01BDC0B94831}</Project>
+      <Name>shapedpoints</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\simpleclear.vcxproj">
+      <Project>{D072FD76-E3BE-3F03-AE41-DB43132FA5AD}</Project>
+      <Name>simpleclear</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\simpletexcoords.vcxproj">
+      <Project>{46A49330-E9DC-34CA-92DB-6DDDBFFC76D0}</Project>
+      <Name>simpletexcoords</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\simpletexture.vcxproj">
+      <Project>{D2E11D0E-E714-3ACD-936A-8D75F967F551}</Project>
+      <Name>simpletexture</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\singlepoint.vcxproj">
+      <Project>{427ADFC6-4FB9-37BF-805C-BDD87DC71F99}</Project>
+      <Name>singlepoint</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\singletri.vcxproj">
+      <Project>{8220A9CF-058B-359C-9937-61EAF0207EF0}</Project>
+      <Name>singletri</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\sparsetexture.vcxproj">
+      <Project>{54B955BC-D46C-3439-A0CF-8E2512462A0E}</Project>
+      <Name>sparsetexture</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\spinnycube.vcxproj">
+      <Project>{880176A7-8E11-3CE7-967E-8E286668BF23}</Project>
+      <Name>spinnycube</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\springmass.vcxproj">
+      <Project>{842F52A0-941F-34E7-8A8D-E127689F9081}</Project>
+      <Name>springmass</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\ssao.vcxproj">
+      <Project>{3E4097DD-084F-3A33-A18F-E0F925FB6F5A}</Project>
+      <Name>ssao</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\starfield.vcxproj">
+      <Project>{171188C3-2452-3C52-B074-3C36A740A18E}</Project>
+      <Name>starfield</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\stereo.vcxproj">
+      <Project>{E076DDD6-92D9-3B25-9C4C-AB91E55E604A}</Project>
+      <Name>stereo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\subroutines.vcxproj">
+      <Project>{CA0D4829-AC97-3389-B471-6B52966F60E7}</Project>
+      <Name>subroutines</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\tessellatedcube.vcxproj">
+      <Project>{EC410BDD-CC4B-3C7E-ACC0-8B8A50FAFDCB}</Project>
+      <Name>tessellatedcube</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\tessellatedgstri.vcxproj">
+      <Project>{E05D9D20-286A-3460-9000-B8A4E7A16966}</Project>
+      <Name>tessellatedgstri</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\tessellatedtri.vcxproj">
+      <Project>{78C6C190-21CD-3AC3-8F73-DF8940B6D538}</Project>
+      <Name>tessellatedtri</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\tessmodes.vcxproj">
+      <Project>{9E691610-291D-356E-B0D4-9A82D44CC633}</Project>
+      <Name>tessmodes</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\tesssubdivmodes.vcxproj">
+      <Project>{3DEE2096-C0F3-36BE-86F9-06D87A2833CF}</Project>
+      <Name>tesssubdivmodes</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\toonshading.vcxproj">
+      <Project>{C859AD4E-B671-3118-8F68-B564E0678B7A}</Project>
+      <Name>toonshading</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\tunnel.vcxproj">
+      <Project>{F4E3821A-6AAF-3C50-90A9-D67AB7DF979D}</Project>
+      <Name>tunnel</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ntp\sb7code-master\sb7code-master\build\wrapmodes.vcxproj">
+      <Project>{CE03E662-E9A9-31A2-A981-326E2B6D93AE}</Project>
+      <Name>wrapmodes</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,6 @@
+﻿  week_02_01.cpp
+c:\ntp\week_02_01\week_02_01.cpp(36): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _kbhit. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\conio.h(459): note: see declaration of 'kbhit'
+c:\ntp\week_02_01\week_02_01.cpp(38): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\conio.h(453): note: see declaration of 'getch'
+  media_fundamentals.vcxproj -> C:\ntp\Week_02_01\vs_project\Debug\media_fundamentals.exe

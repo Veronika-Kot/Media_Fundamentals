@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\ntp\Week_02_01\week_02_01.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ntp\Week_02_01\common\src\utils\console.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ntp\Week_02_01\common\src\utils\utils.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\ntp\Week_02_01\common\src\utils\console.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ntp\Week_02_01\common\src\utils\utils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\ntp\Week_02_01\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{50005EE7-5ACA-3095-B15C-D682B242A306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{A7EEEED7-8383-3CDC-890D-501CA243D7DC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
